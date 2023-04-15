@@ -1,0 +1,144 @@
+---
+title: "Exchange Rates"
+author: "Markus Köfler"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r}
+rm(list=ls())
+packages <- c("tidyverse", "dplyr", "janitor", "stargazer", 
+              "haven", 'bigutilsr',  'magrittr', "FinAna",
+              "lubridate", "png", 'moments', 'sqldf')
+
+package_installer <- function (list_of_packages){
+  for(package in list_of_packages) {
+    if(!require(package, character.only = TRUE)) {
+      install.packages(package, dependencies = TRUE)
+      require(package, character.only = TRUE)
+      }
+    else {
+      next
+    }
+  }
+}
+
+package_installer(packages)
+```
+
+# (2.2)
+
+We consider four economies with their currencies: Euro area with the euro, China with the renminbi, Japan with the yen, and the United States with the US dollar.
+
+## (a)
+
+Download (or copy to your Excel file) the annual nominal exchange rates for the US dollar (**E,** i.e. units of foreign currencies for 1 US dollar) vs. other three currencies from the [OECD homepage](https://data.oecd.org/conversion/exchange-rates.htm) from 2000 until 2022.
+
+```{r}
+#ex_rate <- read.csv("~/OneDrive - Alpen-Adria Universität Klagenfurt/Int.Macro/Ex2/exchange_rate.csv")
+ex_rate <- read.csv("C:/Users/HP/OneDrive - Alpen-Adria Universität Klagenfurt/Int.Macro/Ex2/exchange_rate.csv")
+
+```
+
+Exchange rates are defined as the price of one country's' currency in relation to another country's currency. This indicator is measured in terms of national currency per US dollar.
+
+"Total, National currency units/US dollar, 2000 -- 2022"
+
+```{r}
+# filtering for each country/region
+EA <- ex_rate %>% subset(LOCATION == "EU27_2020") %>% 
+  as.data.frame() %>% select(Value) 
+colnames(EA) <- "€euro"
+EA
+
+USA <- ex_rate %>% subset(LOCATION == "USA") %>% 
+  as.data.frame() %>% select(Value) 
+colnames(USA) <- "$dollar"
+USA
+
+CHN <- ex_rate %>% subset(LOCATION == "CHN") %>% 
+  as.data.frame() %>% select(Value) #%>% rename(Value='CHN')
+colnames(CHN) <- "¥renminbi"
+CHN
+
+JPN <- ex_rate %>% subset(LOCATION == "JPN") %>% 
+  as.data.frame() %>% select(Value) 
+colnames(JPN) <- "ҰYen"
+JPN
+
+```
+
+## (b)
+
+Calculate the exchange rates for other three currencies using your data from (a), i.e. exchange rates for the euro vs. remaining three currencies, exchange rates for the renminbi vs. other three currencies and so on.
+
+Exchange rates are given in:
+
+$$
+\frac{E^*}{E^{\$}}
+$$
+
+Exchange rates in terms of dollar:
+
+```{r}
+regions <- list(USA, EA, CHN, JPN)
+
+for (r1 in regions){
+  for (r2 in regions){
+    if (colnames(r1)==colnames(r2)){
+      next
+    }
+    else {
+      er <- r1/r2
+      colnames(er) <- paste0(colnames(r1),"/", colnames(r2))
+      print(er)
+    }
+  }
+  }
+```
+
+## (c)
+
+Consider two goods in two time periods (2010 and 2020): a ski set produced in Euro area (producer price is 300 euros) and a Bluetooth headset produced in Japan (producer price is 3000 yen). The producer prices are assumed to be constant. Exchange rates are given from (a-b). Calculate the prices for these two goods between 2010 and 2020 in all economies in domestic currency. Discuss the effects of appreciation/depreciation of the domestic currency regarding the price of domestic/foreign goods.
+
+Function that automatically calculates, how the price in foreign regions changes, taking into account exchange rates of currencies:
+
+```{r}
+ex_price_diff <- function(price, in_terms_of, list_of_exrates){
+  for (i in list_of_exrates){
+    er10 <- i[11,]/in_terms_of[11,] # exchange rate in 2010
+    price10 <- price * er10 
+    er20 <- i[21,]/in_terms_of[21,] # exchange rate in 2020
+    price20 <- price * er20
+    cat("price in 2010:\t", price10, colnames(i), "\n")
+    cat("price in 2020:\t", price20, colnames(i), "\n\n")
+    }
+}
+
+```
+
+Prices for the ski set outside Euro Area:
+
+```{r}
+regions <- list(USA, CHN, JPN)
+ski_price <- 300 # Euro
+
+ex_price_diff(ski_price, EA, regions)
+```
+
+The dollar and the renminbi appreciated, and the yen depreciated in terms of euro. Therefore, US and Chinese customers are better off purchasing the ski set in 2020, whereas Japanese customers would have been better of buying in 2010, disregarding other factors.
+
+Prices for the Bluetooth headset outside Japan:
+
+```{r}
+regions <- list(USA, CHN, EA)
+headset_price <- 3000 # Yen
+
+ex_price_diff(headset_price, JPN, regions)
+```
+
+The Japanese yen depreciated relative to all other currencies; hence, foreign customers are better off when buying the headset in 2020.
+
+-   Appreciation of domestic currency leads to lower prices of foreign goods in domestic currency, and higher prices of domestic goods in foreign currency. Cheaper to import more expensive to export.
+
+-   Depreciation of domestic currency leads to higher prices of foreign goods in domestic currency, and lower prices of domestic goods in foreign currency. More expensive to import, cheaper to exports.
