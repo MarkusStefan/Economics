@@ -37,6 +37,7 @@ Download (or copy to your Excel file) the annual nominal exchange rates for the 
 ```{r}
 #ex_rate <- read.csv("~/OneDrive - Alpen-Adria Universität Klagenfurt/Int.Macro/Ex2/exchange_rate.csv")
 ex_rate <- read.csv("C:/Users/HP/OneDrive - Alpen-Adria Universität Klagenfurt/Int.Macro/Ex2/exchange_rate.csv")
+ex_rate <- read.csv("https://raw.githubusercontent.com/MarkusStefan/Economics/main/exchange_rate.csv")
 
 ```
 
