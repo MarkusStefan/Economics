@@ -4,8 +4,6 @@ t_test_plot <- function(data, t_statistic, alpha=0.05){
   df <- n-ncol(data)
   # critical value 2 tailed -> alpha/2 -> two tailed test != 0
   cv2 <- qt(1-(alpha/2), df)
-  # lower rejection region is the same value just negative!
-  # qt(alpha/2, df)
   
   t_dist <- data.frame(x = c(-4, 4))
   lower_rj <- c(-4,(-1)*cv2)
