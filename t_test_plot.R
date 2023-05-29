@@ -24,6 +24,6 @@ t_test_plot <- function(data, t_statistic, alpha=0.05){
     geom_vline(xintercept = cv2, col=2, lwd=1.1) +
     geom_vline(xintercept = cv2*(-1), col=2, lwd=1.1) +
     geom_vline(xintercept = t_statistic , col=4) +
-    geom_text(aes(x = t_statistic, y=0.3), label='temp', col=4) 
+    geom_text(aes(x = t_statistic, y=0.3), label='test', col=4) 
   return(g)
 }
