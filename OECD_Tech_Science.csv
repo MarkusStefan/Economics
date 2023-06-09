@@ -1,0 +1,207 @@
+﻿MSTI_VAR,MSTI Variables,COU,Country,YEAR,Year,Unit Code,Unit,PowerCode Code,PowerCode,Reference Period Code,Reference Period,Value,Flag Codes,Flags
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,1981,1981,USD,US Dollar,6,Millions,,,72750,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,1982,1982,USD,US Dollar,6,Millions,,,81166,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,1983,1983,USD,US Dollar,6,Millions,,,90403,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,1984,1984,USD,US Dollar,6,Millions,,,102874,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,1985,1985,USD,US Dollar,6,Millions,,,115219,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,1986,1986,USD,US Dollar,6,Millions,,,120562,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,1987,1987,USD,US Dollar,6,Millions,,,126666,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,1988,1988,USD,US Dollar,6,Millions,,,134203,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,1989,1989,USD,US Dollar,6,Millions,,,142228,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,1990,1990,USD,US Dollar,6,Millions,,,152392,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,1991,1991,USD,US Dollar,6,Millions,,,161391,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,1992,1992,USD,US Dollar,6,Millions,,,165838,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,1993,1993,USD,US Dollar,6,Millions,,,166153,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,1994,1994,USD,US Dollar,6,Millions,,,169621,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,1995,1995,USD,US Dollar,6,Millions,,,184086,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,1996,1996,USD,US Dollar,6,Millions,,,197802,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,1997,1997,USD,US Dollar,6,Millions,,,212478,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,1998,1998,USD,US Dollar,6,Millions,,,226227,b; d,Time series break; Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,1999,1999,USD,US Dollar,6,Millions,,,244980,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,2000,2000,USD,US Dollar,6,Millions,,,268558,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,2001,2001,USD,US Dollar,6,Millions,,,279061,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,2002,2002,USD,US Dollar,6,Millions,,,278414,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,2003,2003,USD,US Dollar,6,Millions,,,292157,b; d,Time series break; Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,2004,2004,USD,US Dollar,6,Millions,,,303824,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,2005,2005,USD,US Dollar,6,Millions,,,326231,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,2006,2006,USD,US Dollar,6,Millions,,,351669,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,2007,2007,USD,US Dollar,6,Millions,,,378524,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,2008,2008,USD,US Dollar,6,Millions,,,405405,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,2009,2009,USD,US Dollar,6,Millions,,,404201,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,2010,2010,USD,US Dollar,6,Millions,,,408496,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,2011,2011,USD,US Dollar,6,Millions,,,427126,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,2012,2012,USD,US Dollar,6,Millions,,,434442,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,2013,2013,USD,US Dollar,6,Millions,,,455128,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,2014,2014,USD,US Dollar,6,Millions,,,477003,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,2015,2015,USD,US Dollar,6,Millions,,,507401,b; d,Time series break; Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,2016,2016,USD,US Dollar,6,Millions,,,533465,b; d,Time series break; Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,2017,2017,USD,US Dollar,6,Millions,,,565685,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,2018,2018,USD,US Dollar,6,Millions,,,618066,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,2019,2019,USD,US Dollar,6,Millions,,,677881,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,2020,2020,USD,US Dollar,6,Millions,,,730329,d,Definition differs
+G_PPP,Gross Domestic Expenditure on R&D (GERD) at current PPP $,USA,United States,2021,2021,USD,US Dollar,6,Millions,,,806013,d; p,Definition differs; Provisional value
+G_XPOP,GERD per capita population (current PPP $),USA,United States,1981,1981,PC,Percentage,0,Units,,,316.2933463,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,1982,1982,PC,Percentage,0,Units,,,349.5250153,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,1983,1983,PC,Percentage,0,Units,,,385.7886,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,1984,1984,PC,Percentage,0,Units,,,435.1802499,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,1985,1985,PC,Percentage,0,Units,,,483.0863794,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,1986,1986,PC,Percentage,0,Units,,,500.9161428,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,1987,1987,PC,Percentage,0,Units,,,521.5962577,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,1988,1988,PC,Percentage,0,Units,,,547.630998,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,1989,1989,PC,Percentage,0,Units,,,574.9210751,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,1990,1990,PC,Percentage,0,Units,,,609.1269921,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,1991,1991,PC,Percentage,0,Units,,,636.5755532,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,1992,1992,PC,Percentage,0,Units,,,645.4799511,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,1993,1993,PC,Percentage,0,Units,,,638.3576275,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,1994,1994,PC,Percentage,0,Units,,,643.8329126,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,1995,1995,PC,Percentage,0,Units,,,690.5262052,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,1996,1996,PC,Percentage,0,Units,,,733.3768362,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,1997,1997,PC,Percentage,0,Units,,,778.4274504,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,1998,1998,PC,Percentage,0,Units,,,819.2059503,b; d,Time series break; Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,1999,1999,PC,Percentage,0,Units,,,877.0334517,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,2000,2000,PC,Percentage,0,Units,,,950.9911543,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,2001,2001,PC,Percentage,0,Units,,,978.3889911,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,2002,2002,PC,Percentage,0,Units,,,966.8663506,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,2003,2003,PC,Percentage,0,Units,,,1005.267939,b; d,Time series break; Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,2004,2004,PC,Percentage,0,Units,,,1036.015577,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,2005,2005,PC,Percentage,0,Units,,,1102.157821,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,2006,2006,PC,Percentage,0,Units,,,1176.866855,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,2007,2007,PC,Percentage,0,Units,,,1254.653691,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,2008,2008,PC,Percentage,0,Units,,,1331.191326,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,2009,2009,PC,Percentage,0,Units,,,1315.587163,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,2010,2010,PC,Percentage,0,Units,,,1318.413757,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,2011,2011,PC,Percentage,0,Units,,,1367.700411,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,2012,2012,PC,Percentage,0,Units,,,1380.386051,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,2013,2013,PC,Percentage,0,Units,,,1435.286772,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,2014,2014,PC,Percentage,0,Units,,,1492.49533,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,2015,2015,PC,Percentage,0,Units,,,1575.226706,b; d,Time series break; Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,2016,2016,PC,Percentage,0,Units,,,1643.407915,b; d,Time series break; Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,2017,2017,PC,Percentage,0,Units,,,1730.664505,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,2018,2018,PC,Percentage,0,Units,,,1879.797077,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,2019,2019,PC,Percentage,0,Units,,,2050.996481,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,2020,2020,PC,Percentage,0,Units,,,2201.370866,d,Definition differs
+G_XPOP,GERD per capita population (current PPP $),USA,United States,2021,2021,PC,Percentage,0,Units,,,2426.193436,d; p,Definition differs; Provisional value
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,1981,1981,USD,US Dollar,6,Millions,,,50425,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,1982,1982,USD,US Dollar,6,Millions,,,57166,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,1983,1983,USD,US Dollar,6,Millions,,,63683,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,1984,1984,USD,US Dollar,6,Millions,,,73061,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,1985,1985,USD,US Dollar,6,Millions,,,82376,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,1986,1986,USD,US Dollar,6,Millions,,,85932,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,1987,1987,USD,US Dollar,6,Millions,,,90160,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,1988,1988,USD,US Dollar,6,Millions,,,94893,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,1989,1989,USD,US Dollar,6,Millions,,,99860,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,1990,1990,USD,US Dollar,6,Millions,,,107404,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,1991,1991,USD,US Dollar,6,Millions,,,114675,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,1992,1992,USD,US Dollar,6,Millions,,,116757,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,1993,1993,USD,US Dollar,6,Millions,,,115435,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,1994,1994,USD,US Dollar,6,Millions,,,117392,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,1995,1995,USD,US Dollar,6,Millions,,,129830,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,1996,1996,USD,US Dollar,6,Millions,,,142371,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,1997,1997,USD,US Dollar,6,Millions,,,155409,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,1998,1998,USD,US Dollar,6,Millions,,,167102,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,1999,1999,USD,US Dollar,6,Millions,,,182090,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,2000,2000,USD,US Dollar,6,Millions,,,199961,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,2001,2001,USD,US Dollar,6,Millions,,,202017,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,2002,2002,USD,US Dollar,6,Millions,,,193868,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,2003,2003,USD,US Dollar,6,Millions,,,200724,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,2004,2004,USD,US Dollar,6,Millions,,,208301,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,2005,2005,USD,US Dollar,6,Millions,,,226159,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,2006,2006,USD,US Dollar,6,Millions,,,247669,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,2007,2007,USD,US Dollar,6,Millions,,,269267,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,2008,2008,USD,US Dollar,6,Millions,,,290680,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,2009,2009,USD,US Dollar,6,Millions,,,282393,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,2010,2010,USD,US Dollar,6,Millions,,,278977,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,2011,2011,USD,US Dollar,6,Millions,,,294092,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,2012,2012,USD,US Dollar,6,Millions,,,302251,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,2013,2013,USD,US Dollar,6,Millions,,,322528,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,2014,2014,USD,US Dollar,6,Millions,,,340728,d,Definition differs
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,2015,2015,USD,US Dollar,6,Millions,,,367312,b,Time series break
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,2016,2016,USD,US Dollar,6,Millions,,,390336,b,Time series break
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,2017,2017,USD,US Dollar,6,Millions,,,416601,,
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,2018,2018,USD,US Dollar,6,Millions,,,457861,,
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,2019,2019,USD,US Dollar,6,Millions,,,508420,,
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,2020,2020,USD,US Dollar,6,Millions,,,554742,,
+B_PPP,Business Enterprise Expenditure on R&D (BERD) at current PPP $,USA,United States,2021,2021,USD,US Dollar,6,Millions,,,625486,p,Provisional value
+TOTPOP,Population,USA,United States,1981,1981,PER,Persons,3,Thousands,,,230008,,
+TOTPOP,Population,USA,United States,1982,1982,PER,Persons,3,Thousands,,,232218,,
+TOTPOP,Population,USA,United States,1983,1983,PER,Persons,3,Thousands,,,234333,,
+TOTPOP,Population,USA,United States,1984,1984,PER,Persons,3,Thousands,,,236394,,
+TOTPOP,Population,USA,United States,1985,1985,PER,Persons,3,Thousands,,,238506,,
+TOTPOP,Population,USA,United States,1986,1986,PER,Persons,3,Thousands,,,240683,,
+TOTPOP,Population,USA,United States,1987,1987,PER,Persons,3,Thousands,,,242843,,
+TOTPOP,Population,USA,United States,1988,1988,PER,Persons,3,Thousands,,,245061,,
+TOTPOP,Population,USA,United States,1989,1989,PER,Persons,3,Thousands,,,247387,,
+TOTPOP,Population,USA,United States,1990,1990,PER,Persons,3,Thousands,,,250181,,
+TOTPOP,Population,USA,United States,1991,1991,PER,Persons,3,Thousands,,,253530,,
+TOTPOP,Population,USA,United States,1992,1992,PER,Persons,3,Thousands,,,256922,,
+TOTPOP,Population,USA,United States,1993,1993,PER,Persons,3,Thousands,,,260282,,
+TOTPOP,Population,USA,United States,1994,1994,PER,Persons,3,Thousands,,,263455,,
+TOTPOP,Population,USA,United States,1995,1995,PER,Persons,3,Thousands,,,266588,,
+TOTPOP,Population,USA,United States,1996,1996,PER,Persons,3,Thousands,,,269714,,
+TOTPOP,Population,USA,United States,1997,1997,PER,Persons,3,Thousands,,,272958,,
+TOTPOP,Population,USA,United States,1998,1998,PER,Persons,3,Thousands,,,276154,,
+TOTPOP,Population,USA,United States,1999,1999,PER,Persons,3,Thousands,,,279328,,
+TOTPOP,Population,USA,United States,2000,2000,PER,Persons,3,Thousands,,,282398,,
+TOTPOP,Population,USA,United States,2001,2001,PER,Persons,3,Thousands,,,285225,,
+TOTPOP,Population,USA,United States,2002,2002,PER,Persons,3,Thousands,,,287955,,
+TOTPOP,Population,USA,United States,2003,2003,PER,Persons,3,Thousands,,,290626,,
+TOTPOP,Population,USA,United States,2004,2004,PER,Persons,3,Thousands,,,293262,,
+TOTPOP,Population,USA,United States,2005,2005,PER,Persons,3,Thousands,,,295993,,
+TOTPOP,Population,USA,United States,2006,2006,PER,Persons,3,Thousands,,,298818,,
+TOTPOP,Population,USA,United States,2007,2007,PER,Persons,3,Thousands,,,301696,,
+TOTPOP,Population,USA,United States,2008,2008,PER,Persons,3,Thousands,,,304543,,
+TOTPOP,Population,USA,United States,2009,2009,PER,Persons,3,Thousands,,,307240,,
+TOTPOP,Population,USA,United States,2010,2010,PER,Persons,3,Thousands,,,309839,,
+TOTPOP,Population,USA,United States,2011,2011,PER,Persons,3,Thousands,,,312295,,
+TOTPOP,Population,USA,United States,2012,2012,PER,Persons,3,Thousands,,,314725,,
+TOTPOP,Population,USA,United States,2013,2013,PER,Persons,3,Thousands,,,317099,,
+TOTPOP,Population,USA,United States,2014,2014,PER,Persons,3,Thousands,,,319601,,
+TOTPOP,Population,USA,United States,2015,2015,PER,Persons,3,Thousands,,,322113,,
+TOTPOP,Population,USA,United States,2016,2016,PER,Persons,3,Thousands,,,324609,,
+TOTPOP,Population,USA,United States,2017,2017,PER,Persons,3,Thousands,,,326860,,
+TOTPOP,Population,USA,United States,2018,2018,PER,Persons,3,Thousands,,,328794,,
+TOTPOP,Population,USA,United States,2019,2019,PER,Persons,3,Thousands,,,330513,,
+TOTPOP,Population,USA,United States,2020,2020,PER,Persons,3,Thousands,,,331761,,
+TOTPOP,Population,USA,United States,2021,2021,PER,Persons,3,Thousands,,,332213,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,1981,1981,USD,US Dollar,6,Millions,,,3207041,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,1982,1982,USD,US Dollar,6,Millions,,,3343789,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,1983,1983,USD,US Dollar,6,Millions,,,3634038,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,1984,1984,USD,US Dollar,6,Millions,,,4037613,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,1985,1985,USD,US Dollar,6,Millions,,,4338979,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,1986,1986,USD,US Dollar,6,Millions,,,4579631,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,1987,1987,USD,US Dollar,6,Millions,,,4855215,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,1988,1988,USD,US Dollar,6,Millions,,,5236438,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,1989,1989,USD,US Dollar,6,Millions,,,5641580,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,1990,1990,USD,US Dollar,6,Millions,,,5963144,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,1991,1991,USD,US Dollar,6,Millions,,,6158129,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,1992,1992,USD,US Dollar,6,Millions,,,6520327,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,1993,1993,USD,US Dollar,6,Millions,,,6858559,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,1994,1994,USD,US Dollar,6,Millions,,,7287236,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,1995,1995,USD,US Dollar,6,Millions,,,7639749,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,1996,1996,USD,US Dollar,6,Millions,,,8073122,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,1997,1997,USD,US Dollar,6,Millions,,,8577552,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,1998,1998,USD,US Dollar,6,Millions,,,9062817,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,1999,1999,USD,US Dollar,6,Millions,,,9631172,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,2000,2000,USD,US Dollar,6,Millions,,,10250952,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,2001,2001,USD,US Dollar,6,Millions,,,10581929,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,2002,2002,USD,US Dollar,6,Millions,,,10929108,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,2003,2003,USD,US Dollar,6,Millions,,,11456450,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,2004,2004,USD,US Dollar,6,Millions,,,12217196,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,2005,2005,USD,US Dollar,6,Millions,,,13039197,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,2006,2006,USD,US Dollar,6,Millions,,,13815583,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,2007,2007,USD,US Dollar,6,Millions,,,14474228,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,2008,2008,USD,US Dollar,6,Millions,,,14769862,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,2009,2009,USD,US Dollar,6,Millions,,,14478067,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,2010,2010,USD,US Dollar,6,Millions,,,15048970,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,2011,2011,USD,US Dollar,6,Millions,,,15599731,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,2012,2012,USD,US Dollar,6,Millions,,,16253970,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,2013,2013,USD,US Dollar,6,Millions,,,16843196,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,2014,2014,USD,US Dollar,6,Millions,,,17550687,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,2015,2015,USD,US Dollar,6,Millions,,,18206023,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,2016,2016,USD,US Dollar,6,Millions,,,18695106,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,2017,2017,USD,US Dollar,6,Millions,,,19477337,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,2018,2018,USD,US Dollar,6,Millions,,,20533058,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,2019,2019,USD,US Dollar,6,Millions,,,21380976,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,2020,2020,USD,US Dollar,6,Millions,,,21060474,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,2021,2021,USD,US Dollar,6,Millions,,,23315081,,
+GDP_PPP,Gross Domestic Product (current PPP$),USA,United States,2022,2022,USD,US Dollar,6,Millions,,,25385981.35,e,Estimated value
