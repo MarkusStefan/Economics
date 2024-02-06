@@ -22,6 +22,11 @@ import pandas as pd; from typing import Iterable;
 
 class LWMA:
     def __init__(self, m=2, n=2):
+        """
+        Args:
+            n: number of observations to consider forward in time
+            m: number of observations to consider back in time
+        """
         self.m = m
         self.n = n
 
@@ -29,7 +34,9 @@ class LWMA:
         """
         Method to impute missing values in a time series deploying the windowing technique
         Args:
-            series: 
+            series: Any iterable data structure (list, pd.Series, np.array, etc.).
+        Returns:
+            pd.Series: Imputed time series
         """
         m = self.m
         n = self.n
