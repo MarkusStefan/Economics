@@ -38,8 +38,7 @@ class LWMA:
         Returns:
             pd.Series: Imputed time series
         """
-        m = self.m
-        n = self.n
+
 
         # ensure that argument is an instance of pd.Series
         # copy to avoid modifying the input time series
@@ -47,6 +46,20 @@ class LWMA:
             copy = pd.Series(series).copy()
         else:
             copy = series.copy()
+        
+        # handle NaNs at the beginning and end of series
+            
+        # handle NaNs at the beginning and end of series
+        first_non_zero_index = copy.ne(0).idxmax()
+        copy.iloc[0:first_non_zero_index] = copy.loc[first_non_zero_index]
+
+        last_non_zero_index = copy.ne(0)[::-1].idxmax()
+        copy.iloc[last_non_zero_index:] = copy.loc[last_non_zero_index]
+
+        # back and forward fill
+        copy.iloc[:first_non_zero_index] = copy.iloc[first_non_zero_index]
+        copy.iloc[last_non_zero_index:] = copy.iloc[last_non_zero_index]
+
 
         # generating the indices of the time series
         all_indices = pd.Series(range(len(copy)))
@@ -70,10 +83,16 @@ class LWMA:
         m_back = pd.Series(range(1, self.m + 1))
         n_forw = pd.Series(range(1, self.n + 1))
 
+
         # select observations in the current window
         for t in zero_indices:
-            back_m = copy.iloc[t - m_back]
-            forw_n = copy.iloc[t + n_forw]
+            try:
+                back_m = copy.iloc[t - m_back]
+                forw_n = copy.iloc[t + n_forw]
+            except IndexError:
+                m_back = pd.Series(range(1, self.m))
+                n_forw = pd.Series(range(1, self.n))
+                continue
 
             # m values back in time times their weights
             bwd = [(back_m.iloc[i] * w_m.iloc[i]) for i in range(self.m)]
@@ -82,6 +101,7 @@ class LWMA:
             fwd = [(forw_n.iloc[j] * w_n.iloc[j]) for j in range(self.n)]
 
             # boolean, whether values backward or forward are 0 or not
+
             # if 0 -> they are missing in the data (NaN values)
             L_i = [1 if i > 0 else 0 for i in bwd]
             L_j = [1 if j > 0 else 0 for j in fwd]
