@@ -43,16 +43,15 @@ class LWMA:
 
         # ensure that argument is an instance of pd.Series
         # copy to avoid modifying the input time series
-        if type(series) != type(pd.Series):
+        if not isinstance(series, pd.Series):
             copy = pd.Series(series).copy()
-
         else:
             copy = series.copy()
 
         # generating the indices of the time series
-        all = pd.Series(range(len(copy)))
+        all_indices = pd.Series(range(len(copy)))
 
-        # replacing NaN values by 0
+        # ensure that no NaNs are present
         copy.fillna(0, inplace=True)
 
         # boolean mask whether value is missing or not
@@ -60,31 +59,27 @@ class LWMA:
         zero_mask = copy.eq(zero)
 
         # getting the indices of the missing values using the mask
-        zero_idx = all.index[zero_mask]
+        zero_indices = all_indices.index[zero_mask]
 
         # generating the weights
-        # highest weights for obs close to the target obs (linearly decreasing)
-        w_m = pd.Series(range(1, m+1)[::-1])
-        w_n = pd.Series(range(1, n+1)[::-1])
+        # highest weights for observations close to the target observation (linearly decreasing)
+        w_m = pd.Series(range(1, self.m + 1)[::-1])
+        w_n = pd.Series(range(1, self.n + 1)[::-1])
 
-        # indices for how many obs before and after are taken into consideration
-        mback = pd.Series(range(1, m+1))
-        nforw = pd.Series(range(1, n+1))
+        # indices for how many observations before and after are taken into consideration
+        m_back = pd.Series(range(1, self.m + 1))
+        n_forw = pd.Series(range(1, self.n + 1))
 
-        # select obs in the current window
-        for t in zero_idx:
-            back_m = copy.iloc[t - mback]
-            forw_n = copy.iloc[t + nforw]
+        # select observations in the current window
+        for t in zero_indices:
+            back_m = copy.iloc[t - m_back]
+            forw_n = copy.iloc[t + n_forw]
 
             # m values back in time times their weights
-            bwd = []
-            for i in range(m):
-                    bwd.append(back_m.iloc[i] * w_m.iloc[i])
+            bwd = [(back_m.iloc[i] * w_m.iloc[i]) for i in range(self.m)]
 
             # n values forward in time times their weights
-            fwd = []
-            for j in range(n):
-                fwd.append(forw_n.iloc[j] * w_n.iloc[j])
+            fwd = [(forw_n.iloc[j] * w_n.iloc[j]) for j in range(self.n)]
 
             # boolean, whether values backward or forward are 0 or not
             # if 0 -> they are missing in the data (NaN values)
@@ -93,17 +88,11 @@ class LWMA:
 
             # denominator: comprised of the sum of weights, minus the weights
             # that are not considered if values of fwd or bwd are 0
-            denom = 0
-            for i in range(m):
-                denom += w_m.iloc[i] * L_i[i]
-            for j in range(n):
-                denom += w_n.iloc[j] * L_j[j]
+            denom = sum(w_m.iloc[i] * L_i[i] for i in range(self.m))
+            denom += sum(w_n.iloc[j] * L_j[j] for j in range(self.n))
 
-            missing_val = 0
-            for i in range(m):
-                missing_val += bwd[i] * L_i[i]
-            for j in range(n):
-                missing_val += fwd[j] * L_j[j]
+            missing_val = sum(bwd[i] * L_i[i] for i in range(self.m))
+            missing_val += sum(fwd[j] * L_j[j] for j in range(self.n))
 
             missing_val /= denom
 
